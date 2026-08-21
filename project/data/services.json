@@ -1,0 +1,52 @@
+[
+  {
+    "id": "srv-1",
+    "name": "Azure Text Analytics (NLP)",
+    "category": "NLP & Text Analytics",
+    "provider": "Microsoft Azure",
+    "endpoint": "https://vantagepulse-text.cognitiveservices.azure.com/",
+    "quota": "5,000 records / mo (Free F0)",
+    "status": "Active",
+    "description": "Multi-aspect sentiment classification, opinion mining, and key phrase extraction."
+  },
+  {
+    "id": "srv-2",
+    "name": "Azure Translator API",
+    "category": "Language Translation",
+    "provider": "Microsoft Azure",
+    "endpoint": "https://api.cognitive.microsofttranslator.com/",
+    "quota": "2,000,000 chars / mo (Free F0)",
+    "status": "Active",
+    "description": "Real-time multi-language translation for JP, DE, ES, FR, ZH, HI customer reviews."
+  },
+  {
+    "id": "srv-3",
+    "name": "Azure Blob Storage (LRS)",
+    "category": "Cloud Storage & Lakehouse",
+    "provider": "Microsoft Azure",
+    "endpoint": "https://vantagepulsestorage.blob.core.windows.net/",
+    "quota": "5 GB Allocation (Free F0)",
+    "status": "Active",
+    "description": "Object storage for raw transcripts, normalized feeds, and competitor specification JSONs."
+  },
+  {
+    "id": "srv-4",
+    "name": "Conversational AI Copilot Engine",
+    "category": "Generative AI & Synthesis",
+    "provider": "Azure OpenAI / Copilot Hub",
+    "endpoint": "https://vantagepulse-ai.openai.azure.com/",
+    "quota": "High Throughput Enterprise",
+    "status": "Active",
+    "description": "Context-grounded autonomous AI agent for real-time market synthesis and SWOT analysis."
+  },
+  {
+    "id": "srv-5",
+    "name": "Competitor Feed Scraper & RSS Ingestor",
+    "category": "Data Ingestion Pipeline",
+    "provider": "Custom Automated Worker",
+    "endpoint": "http://localhost:3000/api/companies",
+    "quota": "Scheduled Hourly Batch",
+    "status": "Active",
+    "description": "Autonomous background telemetry crawler indexing 1,000+ enterprise software companies."
+  }
+]
